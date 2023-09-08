@@ -30,7 +30,7 @@ const Auth = () => {
         const { username, password, phoneNumber, avatarURL} = form;
         
         //get the the url
-        const URL = 'http://localhost:5000/auth';
+        const URL = 'https://medi-converse.onrender.com/auth';
 
         //make a request to backend ----- 1> pass data to backend 2> get data from backend (ex:hashedpassword,token..)
         const { data: { token, userId, hashedPassword, fullName } } = await axios.post(`${URL}/${isSignUp ? 'signup' : 'login'}`, {
