@@ -9,7 +9,7 @@ Welcome to the MediConverse Chat application code repository! This chat applicat
 
    ![mediconverse-2](https://github.com/Shanmukhi-gandham02/medi-converse/assets/84323709/554b36dd-eb68-4308-833e-3c80883523c7)
 * ## Channel Creation
-   Users can create channels for group conversations and can react, reply to the messages in the channel.
+   Users can create channels for group conversations and can react, reply to the messages in the channel. We can also search channels and users.
 * ## Direct Messaging Chats
    Users can create and manage direct messaging chats.
 * ## Media Sharing
